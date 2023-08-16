@@ -1,5 +1,6 @@
-from flask_app import app
-import flask_app.controllers.users
+from user_app import app
+import user_app.controllers.users
 
-if __name__ == '__main__':
-    app.run(debug=True, host='localhost', port=5001)
+
+if __name__ == "__main__":
+    app.run(debug=True)
